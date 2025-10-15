@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+
 class BeverageMaker(ABC):
     # Template method defining the overall process
     def make_beverage(self):
